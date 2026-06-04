@@ -11,7 +11,6 @@ public class CubeScaler : MonoBehaviour
     }
     public void ChangeCubeSize(float size)
     {
-        Debug.Log("Slider Value = " + size);
 
         cube.localScale = new Vector3(size, size, size);
     }
